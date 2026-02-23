@@ -1,4 +1,34 @@
-.home-nav {
-  display: flex;
-  gap: 16px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+body {
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  background-color: #fff0b1;
+  color: #7a403a;
+}
+
+a {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  color: #cb8400;
+}
+
+a:hover {
+  transform: scale(1.05);
+  color: orange;
+}
+
+a:active {
+  transform: scale(.95);
 }

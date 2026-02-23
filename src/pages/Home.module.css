@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homeLogo {
+    width: clamp(150px, 90vw, 400px);
+    padding: 15px;
+}
+
+.textLinks {
+    display: flex;
+    gap: 50px;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.socialLinks {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(1px, 2vw, 22px);
+    padding: 5px;
+}
+
+.socialLinks img {
+    width: clamp(75px, 2.5vw, 1500px);
+}

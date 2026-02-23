@@ -6,6 +6,7 @@ import About from './pages/About.jsx'
 import Faq from './pages/FAQ.jsx'
 import Layout from './components/Layout.jsx'
 import NotFound from './pages/NotFound.jsx'
+import './fonts.css'
 import './index.css'
 
 const router = createBrowserRouter([
