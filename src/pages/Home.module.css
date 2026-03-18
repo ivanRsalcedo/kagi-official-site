@@ -7,7 +7,7 @@
 }
 
 .homeLogo {
-    width: clamp(150px, 90vw, 400px);
+    width: clamp(400px, 45vw, 600px);
     padding: 15px;
 }
 
@@ -15,7 +15,7 @@
     display: flex;
     gap: 50px;
     font-weight: 200;
-    font-size: 26px;
+    font-size: clamp(23px, 1.8vw, 36px);
 }
 
 .socialLinks {
@@ -29,5 +29,5 @@
 }
 
 .socialLinks img {
-    width: clamp(75px, 2.5vw, 1500px);
+    width: clamp(75px, 4vw, 1500px);
 }
