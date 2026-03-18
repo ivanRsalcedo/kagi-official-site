@@ -17,6 +17,10 @@ body {
   color: #7a403a;
 }
 
+button {
+  font-family: inherit;
+}
+
 a {
   display: inline-block;
   transition: transform 0.2s ease;
