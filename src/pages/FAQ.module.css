@@ -19,6 +19,7 @@
     font-size: clamp(1.5rem, 3vw, 2.8rem);
     color: #7a403a;
     cursor: pointer;
+    width: 100%;
 }
 
 .answer {
