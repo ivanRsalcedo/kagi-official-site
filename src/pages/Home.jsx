@@ -29,8 +29,8 @@ export default function Home() {
             </nav>
             <nav className={styles.textLinks}>
                 <a href="https://www.patreon.com/c/kagimusic" target="_blank" rel="noopener noreferrer">Free MIDI/WAV</a>
-                <Link to='/faq'>FAQ</Link>
                 <Link to='/about'>About</Link>
+                <Link to='/faq'>FAQ</Link>
             </nav>
         </div>
     )
